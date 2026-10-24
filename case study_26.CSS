@@ -1,0 +1,183 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f6fc;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #24104f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #442080;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        .banner {
+            background: linear-gradient(120deg, #5025a8, #e43d85);
+            color: white;
+            text-align: center;
+            padding: 65px 20px;
+        }
+
+        .banner h2 {
+            font-size: 38px;
+            margin-bottom: 12px;
+        }
+
+        .banner p {
+            font-size: 18px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #ffcf40;
+            color: #24104f;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 35px 7%;
+        }
+
+        h2.section-title {
+            text-align: center;
+            color: #35136d;
+            margin-bottom: 25px;
+        }
+
+        .events {
+            display: grid;
+            grid-template-columns:
+                repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 22px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px #00000015;
+            border-top: 5px solid #7541c8;
+        }
+
+        .card h3 {
+            color: #54239a;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            margin: 6px 0;
+        }
+
+        .schedule {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        .schedule th, .schedule td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: center;
+        }
+
+        .schedule th {
+            background: #442080;
+            color: white;
+        }
+
+        .rules {
+            background: white;
+            padding: 25px 40px;
+            border-radius: 10px;
+        }
+
+        .rules li {
+            margin: 8px 0;
+        }
+
+        form {
+            background: white;
+            max-width: 600px;
+            margin: auto;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px #00000015;
+        }
+
+        label {
+            display: block;
+            margin-top: 12px;
+            font-weight: bold;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 11px;
+            margin-top: 5px;
+            border: 1px solid #bbb;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            background: #54239a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #24104f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 5px;
+                font-size: 14px;
+            }
+
+            .banner h2 {
+                font-size: 28px;
+            }
+
+            section {
+                padding: 25px 5%;
+            }
+
+            .schedule th, .schedule td {
+                padding: 7px;
+                font-size: 13px;
+            }
+        }
